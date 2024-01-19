@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-color:hsl(212, 45%, 89%);
+  width: 1440px;
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qrcode{
+  background-color:hsl(0, 0%, 100%);
+  width: 250px;
+  height: 420px;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 15px; 
+  align-items: center;
+
+  
+}
+.imgqr{
+  width: 250px;
+  height: 260px;
+  border-radius: 15px;
+
+}
+.text{
+  padding-top: 15px;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+
+}
+.text > h2{
+  padding-bottom: 15px ;
+  color:  hsl(218, 44%, 22%);
+ font-size: 20px;
+ 
+
+}
+.text > p{
+ 
+  color: hsl(220, 15%, 55%);
+  
+}
